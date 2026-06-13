@@ -422,3 +422,8 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+def cli_main():
+    """Sync entry point for console script."""
+    asyncio.run(main())
